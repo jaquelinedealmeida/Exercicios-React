@@ -1,7 +1,7 @@
 import React, {useState, useEffect}from 'react'
 import Axios from 'axios'
 
-const Exemplo = () => {
+const Doze = () => {
     const [repos, setRepos] = useState([])
     const [busca, setBusca] = useState('')
     const [filtroRepos, setFiltroRepos] = useState ([])
@@ -36,4 +36,4 @@ const Exemplo = () => {
 
 }
 
-export default Exemplo
+export default Doze

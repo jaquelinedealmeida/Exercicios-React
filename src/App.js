@@ -1,14 +1,12 @@
-import Exemplo from './Components/Exemplo'
+import React from 'react'
+import Relogio from './Components/Relogio'
 
 function App() {
-  
   return (
       <>
-        <h1>Hello Filtro</h1>
-  <Exemplo/>
+      <Relogio/>
     </>
-  
-  );
+  )
 }
 
 export default App;
